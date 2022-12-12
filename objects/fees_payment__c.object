@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>payment_mode__c</fullName>
+        <externalId>false</externalId>
+        <label>payment mode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>cash</fullName>
+                    <default>false</default>
+                    <label>cash</label>
+                </value>
+                <value>
+                    <fullName>cc/cd</fullName>
+                    <default>false</default>
+                    <label>cc/cd</label>
+                </value>
+                <value>
+                    <fullName>wallet</fullName>
+                    <default>false</default>
+                    <label>wallet</label>
+                </value>
+                <value>
+                    <fullName>upi</fullName>
+                    <default>false</default>
+                    <label>upi</label>
+                </value>
+                <value>
+                    <fullName>net banking</fullName>
+                    <default>false</default>
+                    <label>net banking</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
